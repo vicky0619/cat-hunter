@@ -21,26 +21,26 @@ d2 byte "                                                                       
 d3 byte "                                                                       |                  ( + + )|",0
 d4 byte "                                                                       |                   /###\ |",0 
 clrmes byte "                                                                       |                           |",0
-ms1 byte "   ZZZZZZZZZZZZZZZZZ      OOOOOOOO       MMMM            MMMM   BBBBBBBBBBB     IIIIIIIIIII   EEEEEEEEEEEE    * * * * * * * * * * * * * * * * * * * * * * * *",0
-ms2 byte "   ZZZZZZZZZZZZZZZ      OOOOOOOOOOOO     MMMMM          MMMMM   BBB      BBB    IIIIIIIIIII   EEEEEEEEEEEE    *                                             *",0
-ms3 byte "            ZZZZ       OOO        OOO    MMMMM          MMMMM   BBB      BBB        III       EEE             *  RRRR   U   U  L      EEEEE   SSSS          *",0
-ms4 byte "           ZZZZ       OOO          OOO   MMMMMM        MMMMMM   BBB     BBB         III       EEE             *  R   R  U   U  L      E      S              *",0
-ms5 byte "          ZZZZ       OOO            OOO  MMM MMM      MMM MMM   BBBBBBBBBB          III       EEEEEEEEEE      *  RRRR   U   U  L      EEEE    SSS           *",0
-ms6 byte "         ZZZZ        OOO            OOO  MMM  MMM    MMM  MMM   BBB      BBB        III       EEEEEEEEEE      *  R  R   U   U  L      E          S          *",0
-ms7 byte "        ZZZZ          OOO          OOO   MMM   MMM  MMM   MMM   BBB       BBB       III       EEE             *  R   R   UUU   LLLLL  EEEEE  SSSS           *",0
-ms8 byte "       ZZZZ            OOO        OOO    MMM    MMMMMM    MMM   BBB       BBB       III       EEE             *             _____                           *",0
-ms9 byte "     ZZZZZZZZZZZZZZZ    OOOOOOOOOOOO     MMM     MMMM     MMM   BBB       BBB   IIIIIIIIIII   EEEEEEEEEEEE    *            |     |                          *",0
-msa byte "   ZZZZZZZZZZZZZZZZZ      OOOOOOOO       MMM      MM      MMM   BBBBBBBBBBBB    IIIIIIIIIII   EEEEEEEEEEEE    *  (1) Press |  A  | to hit left cats         *",0
+ms1 byte "              CCCCCCCCCCC                    AA                TTTTTTTTTTTTTTTTTTTTT                          * * * * * * * * * * * * * * * * * * * * * * * *",0
+ms2 byte "             CCCCCCCCCCCCCC                 AAAA               TTTTTTTTTTTTTTTTTTTTT                          *                                             *",0
+ms3 byte "           CCCC          CCC              AAA  AAA                      TTT                                   *       RRRRR    UU   UU   LL       EEEEEE    *",0
+ms4 byte "          CCCC                           AAA    AAA                     TTT                                   *       RR  RR   UU   UU   LL       EE        *",0
+ms5 byte "         CCCC                           AAA      AAA                    TTT                                   *		RRRRR    UU   UU   LL       EEEEE     *",0
+ms6 byte "         CCCC                          AAA AAAAAA AAA                   TTT                                   *		RR  RR   UU   UU   LL       EE        *",0
+ms7 byte "          CCCC                        AAA          AAA                  TTT                                   *		RR   RR    UUU     LLLLL    EEEEEE    *",0
+ms8 byte "            CCCC         CCC         AAA            AAA                 TTT                                   *             _____                           *",0
+ms9 byte "             CCCCCCCCCCCCCC         AAA              AAA                TTT                                   *            |     |                          *",0
+msa byte "              CCCCCCCCCCC          AAA                AAA               TTT                                   *  (1) Press |  A  | -> attack left cats      *",0
 msb byte "                                                                                                              *            |_____|                          *",0
 msc byte "   HHH         HHH    UUU         UUU    NNNN       NNN   TTTTTTTTTTTTTTT   EEEEEEEEEEEEE    RRRRRRRRRR       *                                             *",0
 msd byte "   HHH         HHH    UUU         UUU    NNNNN      NNN   TTTTTTTTTTTTTTT   EEEEEEEEEEEEE    RRRRRRRRRRR      *             _____                           *",0
 mse byte "   HHH         HHH    UUU         UUU    NNNNNN     NNN         TTT         EEE              RRR      RRR     *            |     |                          *",0
-msf byte "   HHH         HHH    UUU         UUU    NNN NNN    NNN         TTT         EEE              RRR      RRR     *  (2) Press |  S  | to hit middle cats       *",0
+msf byte "   HHH         HHH    UUU         UUU    NNN NNN    NNN         TTT         EEE              RRR      RRR     *  (2) Press |  S  | -> attack middle cats    *",0
 msg byte "   HHHHHHHHHHHHHHH    UUU         UUU    NNN  NNN   NNN         TTT         EEEEEEEEEEE      RRRRRRRRRR       *            |_____|                          *",0
 msh byte "   HHHHHHHHHHHHHHH    UUU         UUU    NNN   NNN  NNN         TTT         EEEEEEEEEEE      RRRRRRRRRR       *                                             *",0
 msi byte "   HHH         HHH    UUU         UUU    NNN    NNN NNN         TTT         EEE              RRR  RRRR        *             _____                           *",0
 msj byte "   HHH         HHH    UUU         UUU    NNN     NNNNNN         TTT         EEE              RRR   RRRR       *            |     |                          *",0
-msk byte "   HHH         HHH     UUUUUUUUUUUUU     NNN      NNNNN         TTT         EEEEEEEEEEEEE    RRR     RRRR     *  (3) Press |  D  | to hit right cats        *",0
+msk byte "   HHH         HHH     UUUUUUUUUUUUU     NNN      NNNNN         TTT         EEEEEEEEEEEEE    RRR     RRRR     *  (3) Press |  D  | -> attack right cats     *",0
 msl byte "   HHH         HHH      UUUUUUUUUUU      NNN       NNNN         TTT         EEEEEEEEEEEEE    RRR      RRRR    *            |_____|                          *",0
 msm byte "                                                                                                              *                                             *",0
 msn byte "                                                                                                              *                                             *",0
@@ -58,8 +58,8 @@ msz byte "                                            | /            \ |        
 ms0 byte "                                            |/______________\|                                                                  ( + + )  ( o o )       /###\",0
 ms1000 byte "                                                                                                                                 /###\   ( + + )",0
 ms1111 byte "                                                                                                                                          /###\",0
-ms2222 byte "Ps.During the game,you can press e to end the game.",0
-ms3333 byte "Ps.During the game,you can press p to restart the game.",0
+ms2222 byte "Press e -> end the game.",0
+ms3333 byte "Press p -> restart the game.",0
 ms01 byte "                                                                                                                                                            ",0
 ms02 byte "                                                                           333333333333333",0
 ms03 byte "                                                                        333333333333333333333",0
@@ -153,7 +153,7 @@ ms102 byte "          TTTTTTTTTTTTTTTTTTTTTTT                                   
 ms103 byte "          TTTTTTTTTTTTTTTTTTTTTTT                                                         #####                   UUUUU             UUUUU",0
 ms100 byte "                   TTTTT                                                                 ######                   UUUUU             UUUUU",0
 ms104 byte "                   TTTTT          IIIII                                                  #####                    UUUUU             UUUUU",0
-ms105 byte "                   TTTTT         I1IIIII                                                 ###                      UUUUU             UUUUU",0
+ms105 byte "                   TTTTT         IIIIIII                                                 ###                      UUUUU             UUUUU",0
 ms106 byte "                   TTTTT         IIIIIII                                                ###                       UUUUU             UUUUU     PPPPPPPPPPPP",0
 ms107 byte "                   TTTTT          IIIII    MMM  MMMMM      MMMMM           EEEEEEE     ##     SSSSSSSS            UUUUU             UUUUU    PPPPPPPPPPPPPP",0
 ms108 byte "                   TTTTT                   MMM MMMMMMMM  MMMMMMMMM       EEEEEEEEEEE        SSSS    SSSS          UUUUU             UUUUU    PPPPPPPPPPPPPPP",0
@@ -166,38 +166,38 @@ ms114 byte "                   TTTTT          IIIII    MMM        MMM        MMM
 ms115 byte "                   TTTTT          IIIII    MMM        MMM        MMM     EEE      EEE       SSSS    SSSS             UUUUUUUUUUUUUUUUU       PPPPPPPPPPPPPP",0
 ms116 byte "                   TTTTT          IIIII    MMM        MMM        MMM      EEEEEEEEEE          SSSSSSSS                 UUUUUUUUUUUUU         PPPPPPPPPPP",0
 ms117 byte "                                                                                                                                             PPPP",0
-ms201 byte "              PPPPPPPPPP       IIII                                                                               * * * * * * * * * * * * * * * * * * * * * * * *",0
-ms202 byte "              PPPPPPPPPPP     IIIIII                                                                              *                                             *",0 
-ms203 byte "              PPP      PPP    III III                                                                             *      YY    YY  EEEEEE   SSSSS               *",0
-ms204 byte "              PPP      PPP   III  III                                                                             *       YY  YY   E       S                    *",0
-ms205 byte "              PPP      PPP   III  III         AAAAAAA                                         ??????????          *        YYYY    EEEEEE   SSSS                *",0
-ms206 byte "              PPP     PPPP   III  III       AAAAAAAAAAA         YYY        YYY              ???????????????       *         YY     E            S               *",0
-ms207 byte "              PPPPPPPPPPP    III  III      AAA       AAA        YYY        YYY             ????????????????       *         YY     EEEEEE  SSSSS                *",0
-ms208 byte "              PPPPPPPPPP     III  III     IAA         AAA       YYY        YYY            ????          ????      *                                             *",0
-ms209 byte "              PPP            III  II     IAA           AAA      YYY        YYY            ????          ????      *              _____                          *",0
-ms210 byte "              PPP             II  II    IIAA           AAAA     YYY        YYY    YY      ????          ????      *            ||     ||                        *",0
-ms211 byte "              PPP             IIIIII    IIAAA         AAAAA    YYYY        YYY   YY        ????         ????      *     Press  ||  Y  ||  to  restart           *",0
-ms212 byte "              PPP              IIIII   II  AAA       AAA AA   YYYYY        YYY  YY          ?????      ????       *            ||_____||                        *",0
-ms213 byte "              PPP             II  III III   AAAAAAAAAAA  AAA YY  YYYYYYYYYYYYY YY                     ????        *            |/_____\|                        *",0
-ms214 byte "              PPP            II    IIIII      AAAAAAA     AAAY     YYYYYYY YYYY                      ????         *                                             *",0
-ms215 byte "                                                                          YYYY                      ????          *                                             *",0
-ms216 byte "                                                                    YYYYYYY YY                     ????           * * * * * * * * * * * * * * * * * * * * * * * *",0
-ms217 byte "                                                                  YYY       YY                    ????            *                                             *",0
-ms218 byte "                                                                 YYY        YY                   ????             *       NN    NN   OOOOOOO                    *",0
-ms219 byte "                                                                  YYY      YYY                   ????             *       NNN   NN   OO   OO                    *",0
-ms220 byte "                                                                   YYYYYYYYYY                    ????             *       NNNN  NN   OO   OO                    *",0
+ms201 byte "              PPPPPPPPPP       LLLL                                                                               * * * * * * * * * * * * * * * * * * * * * * * *",0
+ms202 byte "              PPPPPPPPPPP      LLLL                                                                               *                                             *",0 
+ms203 byte "              PPP      PPP     LLLL                                                                               *      YY    YY  EEEEEE   SSSSS               *",0
+ms204 byte "              PPP      PPP     LLLL                                                                               *       YY  YY   E       S                    *",0
+ms205 byte "              PPP      PPP     LLLL           AAAAAAA                                         ??????????          *        YYYY    EEEEEE   SSSS                *",0
+ms206 byte "              PPP     PPPP     LLLL         AAAAAAAAAAA         YYY        YYY              ???????????????       *         YY     E            S               *",0
+ms207 byte "              PPPPPPPPPPP      LLLL        AAA       AAA        YYY        YYY             ?????       ?????      *         YY     EEEEEE  SSSSS                *",0
+ms208 byte "              PPPPPPPPPP       LLLL       AA          AAA       YYY        YYY            ????          ????      *                                             *",0
+ms209 byte "              PPP              LLLL       AA           AAA      YYY        YYY            ????          ????      *              _____                          *",0
+ms210 byte "              PPP              LLLL       AA           AAAA     YYY        YYY            ????          ????      *            ||     ||                        *",0
+ms211 byte "              PPP              LLLL       AAA         AAAAA     YYY        YYY             ????         ????      *     Press  ||  Y  ||  to  restart           *",0
+ms212 byte "              PPP              LLLL        AAA       AAA AA     YYY        YYY              ?????      ????       *            ||_____||                        *",0
+ms213 byte "              PPP              LLLL         AAAAAAAAAAA  AAA     YYYYYYYYYYYYY                        ????        *            |/_____\|                        *",0
+ms214 byte "              PPP              LLLL           AAAAAAA     AAA      YYYYYYYYYY                        ????         *                                             *",0
+ms215 byte "                                                                         YYY                        ????          *                                             *",0
+ms216 byte "                                                                        YYY                        ????           * * * * * * * * * * * * * * * * * * * * * * * *",0
+ms217 byte "                                                                       YYY                        ????            *                                             *",0
+ms218 byte "                                                                      YYY                        ????             *       NN    NN   OOOOOOO                    *",0
+ms219 byte "                                                                     YYY                         ????             *       NNN   NN   OO   OO                    *",0
+ms220 byte "                                                                    YYY                          ????             *       NNNN  NN   OO   OO                    *",0
 ms221 byte "                                                                                                 ????             *       NN NN NN   OO   OO                    *",0
-ms222 byte "                                                               ###                                                *       NN  NNNN   OO   OO                    *",0
+ms222 byte "                                                                 III                                              *       NN  NNNN   OO   OO                    *",0
 ms223 byte "                                                                                                                  *       NN   NNN   OOOOOOO                    *",0
-ms224 byte "              AAAAAAA          GGGGGGGGG        AAAAAAA        III      NN  NNNNN                ????             *                                             *",0
-ms225 byte "             AA     AA        GG      GGG     AAA     AA       III      NN NN   NN              ??????            *              _____                          *",0
-ms226 byte "            AA       AA      GG        GG   GGAA       AA      III     NNNN      NN             ??????            *            ||     ||                        *",0   
-ms227 byte "            AA       AAA    GGG        GG  GG AA       AAA    II II   NNNN       NN              ????             *     Press  ||  N  ||  to  end  the  game    *",0
-ms228 byte "             AA     AA AA  A  GG      GGG GG   AA     AA AA  AI   II NN NN       NN                               *            ||_____||                        *",0
-ms229 byte "              AAAAAAA   AAA    GGGGGGGGGGGG     AAAAAAA   AAA      III  NN       NN                               *            |/_____\|                        *",0
-ms230 byte "                                     GGGG                                                                         *                                             *",0
-ms231 byte "                                   GGG GG                                                                         *                                             *",0
-ms232 byte "                                 GGG   GG                                                                         * * * * * * * * * * * * * * * * * * * * * * * *",0
+ms224 byte "              AAAAAAA          GGGGGGGGG         AAAAAAA         III      NN  NNNNN               ????            *                                             *",0
+ms225 byte "             AA     AA        GG      GGG       AA     AA        III      NN NN   NN             ??????           *              _____                          *",0
+ms226 byte "            AA       AA      GG        GG      AA       AA       III      NN       NN            ??????           *            ||     ||                        *",0   
+ms227 byte "            AA       AAA    GGG        GG      AA       AAA      III      NN       NN             ????            *     Press  ||  N  ||  to  end  the  game    *",0
+ms228 byte "             AA     AA AA     GG      GGG       AA     AA AA     III      NN       NN                             *            ||_____||                        *",0
+ms229 byte "              AAAAAAA   AA     GGGGGGGGGG        AAAAAAA   AA    III      NN       NN                             *            |/_____\|                        *",0
+ms230 byte "                                       GG                                                                         *                                             *",0
+ms231 byte "                                       GG                                                                         *                                             *",0
+ms232 byte "                                 GG    GG                                                                         * * * * * * * * * * * * * * * * * * * * * * * *",0
 ms233 byte "                               GG      GG",0
 ms234 byte "                               GG     GG",0
 ms235 byte "                                 GGGGGG",0   
@@ -218,15 +218,15 @@ ans byte 0,0,0,0,0,0
 success dword 0
 systime dword ?
 counting dword 30
-score byte "                                                                         The score is: ",0
-timemes byte "                                                                          The time left: ",0
+score byte "                                                                         Your score : ",0
+timemes byte "                                                                          Your time : ",0
 zero byte "0",0
-donemes byte "                                                                         again? press y(yes) or n(no)",0
-donemes1 byte "                                                                         your level is: shit",0
-donemes2 byte "                                                                         your level is: bad",0
-donemes3 byte "                                                                         your level is: normal",0
-donemes4 byte "                                                                         your level is: great",0
-donemes5 byte "                                                                         your level is: best but so what XD",0
+donemes byte "                                                                         Play Again? press y(yes) or n(no)",0
+donemes1 byte "                                                                         your level: ☆",0
+donemes2 byte "                                                                         your level: ☆☆",0
+donemes3 byte "                                                                         your level: ☆☆☆",0
+donemes4 byte "                                                                         your level: ☆☆☆☆",0
+donemes5 byte "                                                                         your level: ☆☆☆☆☆",0
 endend byte "TIME'S UP",0
 beginmes byte "please press Alt+Enter to turn into full screen, and then press x to join the game",0
 wronghit byte 0
@@ -823,7 +823,7 @@ L14:
  je gamestart
  cmp ans[esi],al  
  je yes
- mov wronghit,1  ;打錯僵屍時
+ mov wronghit,1  ;打錯時
  mov esi,5
  mov dl,0
  mov dh,35
@@ -880,7 +880,7 @@ LLLL:
 call_set1:
  jmp L8
 
-yes: ;打正確僵屍時
+yes: ;打正確時
  cmp success,10120
  jb L50p
  cmp success,40529
@@ -945,7 +945,7 @@ exit2:
  mov dh,7
  call Gotoxy
 
-L8:	;印出殭屍
+L8:	;印出貓咪
  xor edx, edx
  cmp ans[esi],"a"
  je L9
